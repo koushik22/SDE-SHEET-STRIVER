@@ -10,8 +10,6 @@ TC - > O(n*m *(n + m)), S.C -> O(1)
 class Solution {
     public void setZeroes(int[][] matrix) {
         
-       kousik das
-        
         for(int i=0;i<matrix.length;i++){
             for(int j=0;j<matrix[0].length;j++){
                     if(matrix[i][j] == 0){
